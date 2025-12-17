@@ -15,5 +15,11 @@ Using this tool, U can change your physical ip address 😉
 ## Workflow 👇
 <br>
 <p align="center">
-  <img src="Ipchanger.png.png">
+  The script uses the Linux ip command (or ifconfig) to modify network interface settings. It's a practical example of:
+
+Shell scripting for automation.
+
+Network configuration fundamentals.
+
+Privilege escalation awareness (requires sudo).
 </p>
