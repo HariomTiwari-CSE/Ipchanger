@@ -12,7 +12,6 @@ IP_CHANGER() {
         read -p "Enter the interface you want to configure: " interface
         read -p "Enter the IP: " IP
         
-        # Validate IP address format
         if ! echo "$IP" | grep -Eq '^([0-9]{1,3}\.){3}[0-9]{1,3}$'; then
             echo "Invalid IP address format!"
             exit 1
